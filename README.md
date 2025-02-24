@@ -24,13 +24,13 @@ Ogni studente ha inizialmente sviluppato in autonomia una delle quattro funziona
 
         Ha collaborato con gli altri per integrare questa funzionalità nel sistema finale.
 
-- Studente 2
+- Federico Aquilani
 
         Si è occupato dell'aggiornamento delle quantità dei prodotti in magazzino.
 
         Ha scritto il codice per modificare le quantità dei prodotti già esistenti.
 
-        Ha collaborato con Studente 1 per garantire la corretta gestione dei prodotti e con Studente 3 per mantenere i dati coerenti nell'inventario.
+        Ha collaborato con Noemy Raimondi per garantire la corretta gestione dei prodotti e con Riccardo Scimia per mantenere i dati coerenti nell'inventario.
 
 - Riccardo Scimia
 
