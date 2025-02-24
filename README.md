@@ -32,13 +32,13 @@ Ogni studente ha inizialmente sviluppato in autonomia una delle quattro funziona
 
         Ha collaborato con Studente 1 per garantire la corretta gestione dei prodotti e con Studente 3 per mantenere i dati coerenti nell'inventario.
 
-- Studente 3
+- Riccardo Scimia
 
         Ha implementato la funzione di visualizzazione dell'inventario.
 
-        Ha sviluppato un'interfaccia chiara per mostrare tutti i prodotti e le loro quantità.
+        Ha sviluppato un'interfaccia per mostrare tutti i prodotti le loro quantità e il prezzo unitario
 
-        Ha collaborato con Studente 4 per garantire che la ricerca dei prodotti fosse coerente con la visualizzazione.
+        Ha collaborato con Davide Martelli per garantire che la ricerca dei prodotti fosse coerente.
 
 - Studente 4
 
