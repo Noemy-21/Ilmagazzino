@@ -40,13 +40,13 @@ Ogni studente ha inizialmente sviluppato in autonomia una delle quattro funziona
 
         Ha collaborato con Davide Martelli per garantire che la ricerca dei prodotti fosse coerente.
 
-- Studente 4
+-  Davide Martelli
 
         Ha sviluppato la funzionalità di ricerca di un prodotto specifico.
 
         Ha implementato un metodo efficiente per trovare prodotti nel magazzino.
 
-        Ha lavorato con Studente 3 per rendere la visualizzazione e la ricerca integrate nel sistema.
+        Ha lavorato con Riccardo Scimia per rendere la visualizzazione e la ricerca integrate nel sistema.
 
 ## Collaborazione e Integrazione
 
