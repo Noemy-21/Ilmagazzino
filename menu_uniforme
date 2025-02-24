@@ -1,0 +1,42 @@
+magazzino = gestione_Magazzino()
+
+while True:
+    print("1. Aggiungi un prodotto al magazzino")
+    print("2. Aggiorna la quantità di un prodotto")
+    print("3. Visualizza l'inventario attuale")
+    print("4. Cerca un prodotto nel magazzino tramite ID")
+    print()
+    print("5. Esci")
+    print("-----------------------------")
+
+    scelta = input("Seleziona un numero: ")
+
+    if scelta == "1":
+        id_aggiunta = input("Inserisci il codice identificativo del prodotto da aggiungere al magazzino: ")
+        magazzino.aggiungi_prodotto(id_aggiunta,nome,codice,quantita,prezzo)
+        print("Prodotto aggiunto al magazzino")
+
+    elif scelta == "2":
+        id_aggiornamento = input("Inserisci il codice identificativo del prodotto da aggiornare: ")
+        if id_aggiornamento in self.maagazzino[codice]:
+            operazione = input("Vuoi effettuare un rifornimento o una vendita? ")
+            variazione = input("Inserisci la variazione: ")
+        magazzino.aggiorna_quantita(id_aggiornamento,quantita, operazione, variazione)
+        print("Quantità del prodotto aggiornata")
+
+    elif scelta == "3":
+        magazzino.visualizza_inventario(visualizzazione_inventario)
+        for prodotto in visualizzazzione_inventario:
+            print(prodotto)
+
+    elif scelta == "4":
+        dettagli_ricerca = []
+
+        id_ricerca = input("Inserisci il codice identificativo del prodotto da cercare: ")
+
+        if id_ricerca in self.magazzino[codice]:
+            if prodotto[codice] == id_ricerca:
+                dettagli_ricerca.append(prodotto)
+            print("Prodotto trovato")
+        else:
+            print("Prodotto non trovato")
