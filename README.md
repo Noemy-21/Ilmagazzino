@@ -22,7 +22,7 @@ Ogni studente ha inizialmente sviluppato in autonomia una delle quattro funziona
 
         Ha implementato la logica per registrare nuovi prodotti e assicurarsi che non vengano inseriti duplicati.
 
-        Ha collaborato con gli altri per integrare questa funzionalità nel sistema finale.
+        Ha collaborato con tutti gli altri per integrare questa funzionalità nel sistema finale.
 
 - Federico Aquilani
 
