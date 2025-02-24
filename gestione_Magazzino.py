@@ -1,16 +1,21 @@
-class gestione_Magazzino:
-    def _init__(self):
-        self.magazzino = []
+class GestioneMagazzino:
+    def __init__(self):
+        self.magazzino = {}
 
-    def aggiungi_prodotto(self,nome,codice,quantita,prezzo): #task 1
-        if id_aggiunta in self.magazzino[codice]:
-            print("Il prodotto è già presente nel magazzino")
+    def aggiungi_prodotto(self, nome, codice, quantita, prezzo):  # Task 1
+
+    # errore in Task 1 : se viene inserito un codice già presente nel magazzino, il prodotto viene aggiunto comunque
+
+        if codice in self.magazzino:
+            print("Il prodotto è già presente nel magazzino.") #!!! il controllo non funziona
         else:
-            self.magazzino.append({
-                nome: nome,
-                codice: codice,
-                quantita: quantita,
-                prezzo: prezzo
-            })
+            self.magazzino[codice] = {
+                "nome": nome,
+                "quantita": int(quantita),
+                "prezzo": float(prezzo)
+            }
+            print("Prodotto aggiunto al magazzino.")
+
+
 
 
