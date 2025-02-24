@@ -16,7 +16,7 @@ Ogni studente ha inizialmente sviluppato in autonomia una delle quattro funziona
 
 ## Ruoli degli Studenti
 
-- Studente 1
+- Noemy Raimondi
 
         Ha sviluppato la funzionalità di aggiunta prodotti al magazzino.
 
