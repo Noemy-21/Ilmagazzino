@@ -1,7 +1,6 @@
-def visualizza_inventario(self): #task 3
-        visualizzazione_inventario = []
-        for prodotto in self.magazzino:
-            visualizzazione_inventario.append(prodotto)
-        return visualizzazione_inventario
-
-
+def visualizza_inventario(self):  # Task 3
+        if not self.magazzino:
+            print("Il magazzino è vuoto.")
+        else:
+            for codice, prodotto in self.magazzino.items():
+                print(f"Codice: {codice}, Nome: {prodotto['nome']}, Quantità: {prodotto['quantita']}, Prezzo: {prodotto['prezzo']:.2f}€")
